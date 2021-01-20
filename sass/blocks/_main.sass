@@ -1,0 +1,44 @@
+.main
+  display: flex
+  align-items: center
+  &__description
+    max-width: 438px
+    font-style: normal
+    font-weight: normal
+  &__title
+    font-family: $Font
+    font-size: 68px
+    line-height: 75px
+    letter-spacing: 1px
+    color: $Two
+    margin: 0 0 26px 0
+  &__subtitle
+    font-family: $Font
+    font-size: 20px
+    line-height: 28px
+    color: $Five
+    margin: 0 0 31px 0
+  &__images
+    position: relative
+  &__phone
+    margin: -4px 0 0 55px
+    width: 270px
+    height: 530px
+    overflow: hidden
+    &-image
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &__computer
+    position: absolute
+    top: -71px
+    right: -519px
+    height: 550px
+    width: 657px
+    overflow: hidden
+    &-image
+      width: 100%
+      height: 100%
+      object-fit: contain
+  &__button
+    padding: 14px 33px

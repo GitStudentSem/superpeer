@@ -1,20 +1,59 @@
-// @media screen and (max-width: 1280px)
+@media screen and (max-width: 1280px)
+  .container
+    max-width: 90%
+
+  .header
+    margin-bottom: 80px
+
+  .main
+    justify-content: space-around
+    &__computer
+      display: none
+
 @media screen and (max-width: 1000px)
   .header
+    margin-bottom: 70px
     &__logo
-      &-image
-        max-height: 100px
-        width: auto
+      max-width: 300px
+      max-height: 100px
+
+  .main
+    justify-content: space-between
+    &__title
+      font-size: 65px
+
 @media screen and (max-width: 768px)
   .header
+    margin-bottom: 60px
     &__logo
-      &-image
-        max-height: 80px
-        width: auto
+      max-width: 240px
+      max-height: 80px
+
+  .main
+    flex-direction: column
+    &__title
+      text-align: center
+      font-size: 55px
+      line-height: 70px
+    &__subtitle
+      text-align: center
+    &__button
+      display: block
+      margin: auto
+      margin-bottom: 30px
+    &__phone
+      margin: 0
 
 @media screen and (max-width: 480px)
   .header
+    margin-bottom: 40px
     &__logo
-      &-image
-        max-height: 53px
-        width: auto
+      max-width: 160px
+      max-height: 53px
+    &__login
+      padding: 10px 20px
+
+  .main
+    &__title
+      font-size: 35px
+      line-height: 45px

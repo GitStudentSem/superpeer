@@ -1,6 +1,6 @@
 $(function () {
   // Красивое модальное окно
-  const modal = $(".modal__open"),
+  const modal = $(".modal"),
     func = () => {
       swal({
         title: "Внимание!",
@@ -12,7 +12,7 @@ $(function () {
   modal.on("click", func);
 
   // Отключение телепортации наверх у ссылок
-  $(".modal__open").click(function (e) {
+  $(".modal").click(function (e) {
     e.preventDefault();
   });
 });
