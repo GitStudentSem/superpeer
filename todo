@@ -16,3 +16,11 @@
       - 768
       - 480
       - 320
+
+- Отложенная загрузка шрифтов
+- анимации
+Так вставляются картинки webp для сафари
+    <picture>
+      <source srcset="img/livestream/phone-2.webp" />
+      <img src="img/livestream/phone-2.png" alt="phone-2" />
+    </picture>
