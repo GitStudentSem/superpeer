@@ -1,0 +1,52 @@
+.pricing
+  margin-bottom: 200px
+  &__title
+    font-family: $Font
+    font-style: normal
+    font-weight: normal
+    font-size: 55px
+    line-height: 62px
+    text-align: center
+    letter-spacing: 1px
+    color: $Two
+    margin: 0 0 70px 0
+  &__cards
+    display: flex
+    justify-content: space-around
+  &__card
+    display: flex
+    flex-direction: column
+    background: $Two
+    box-shadow: 4px 4px 0px #FFD338
+    border-radius: 30px
+    padding: 39px 76px
+    font-family: $Font
+    font-style: normal
+    font-weight: normal
+    text-align: center
+    transition: 0.3s
+    &:hover
+      box-shadow: 6px 6px 0px $Five
+    &-name
+      font-size: 19px
+      line-height: 26px
+      color: #FFFFFF
+      margin-bottom: 17px
+    &-percent
+      margin-bottom: 18px
+      display: flex
+      justify-content: space-between
+      &-old
+        font-size: 50px
+        line-height: 50px
+        text-decoration-line: line-through
+        color: #666666
+        text-decoration: line-through
+      &-new
+        font-size: 50px
+        line-height: 50px
+        color: #FFFFFF
+    &-comission
+      font-size: 16px
+      line-height: 22px
+      color: #999999

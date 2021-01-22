@@ -15,7 +15,6 @@
     margin-bottom: 200px
 
   .features
-    margin-bottom: 200px
     &__title
       margin-bottom: 70px
 
@@ -56,12 +55,17 @@
     margin-bottom: 150px
 
   .features
-    margin-bottom: 150px
+    margin-bottom: 100px
     &__title
       margin-bottom: 50px
 
   .card
     margin-bottom: 40px
+
+  .pricing
+    margin-bottom: 100px
+    &__cards
+      justify-content: space-between
 
 @media screen and (max-width: 768px)
   .header
@@ -128,12 +132,21 @@
       height: 300px
 
   .features
-    margin-bottom: 100px
     &__title
       margin-bottom: 30px
   .card
     max-width: 80%
     margin: auto
+
+  .pricing
+    &__title
+      margin-bottom: 50px
+    &__cards
+      flex-direction: column
+      max-width: 80%
+      margin: auto
+    &__card
+      margin-bottom: 40px
 
 @media screen and (max-width: 480px)
   .header
@@ -195,5 +208,14 @@
 
   .features
     margin-bottom: 50px
+
   .card
     max-width: 100%
+
+  .pricing
+    margin-bottom: 50px
+    &__cards
+      max-width: 100%
+    &__card
+      margin-bottom: 40px
+      padding: 30px 50px
