@@ -7,8 +7,13 @@
 
   .main
     justify-content: space-around
+    margin-bottom: 100px
     &__computer
       display: none
+
+  .three
+    &__description
+      margin: 0 0 0 50px
 
 @media screen and (max-width: 1000px)
   .header
@@ -19,8 +24,25 @@
 
   .main
     justify-content: space-between
+    margin-bottom: 80px
     &__title
       font-size: 65px
+
+  .two
+    left: 0
+    &__image
+      width: 700px
+      margin: 0
+
+  .three
+    &__description
+      margin: 0
+
+  .calls
+    padding-top: 80px
+
+  .livestream
+    padding-top: 80px
 
 @media screen and (max-width: 768px)
   .header
@@ -31,6 +53,7 @@
 
   .main
     flex-direction: column
+    margin-bottom: 80px
     &__title
       text-align: center
       font-size: 55px
@@ -44,6 +67,46 @@
     &__phone
       margin: 0
 
+  .calls
+    padding-top: 60px
+    &__title
+      font-size: 45px
+    &__description
+      margin-bottom: 30px
+
+  .livestream
+    padding-top: 60px
+    &__title
+      font-size: 45px
+    &__description
+      margin-bottom: 30px
+
+  .one
+    &__description
+      margin: 0px 0 0 30px
+      max-width: 60%
+    &__image
+      width: 150px
+      height: 300px
+
+  .two
+    top: 0
+    &__image
+      width: 430px
+      height: 320px
+    &__description
+      max-width: 100%
+
+  .three
+    justify-content: space-between
+    align-items: flex-start
+    bottom: -330px
+    &__description
+      max-width: 62%
+    &__image
+      width: 150px
+      height: 300px
+
 @media screen and (max-width: 480px)
   .header
     margin-bottom: 40px
@@ -54,6 +117,49 @@
       padding: 10px 20px
 
   .main
+    margin-bottom: 60px
     &__title
       font-size: 35px
       line-height: 45px
+
+  .calls
+    padding-top: 40px
+    &__title
+      font-size: 50px
+    &__steps
+      &-subtitle
+        text-align: justify
+
+  .livestream
+    padding-top: 40px
+    &__title
+      font-size: 50px
+    &__steps
+      &-title
+        text-align: left
+      &-subtitle
+        text-align: justify
+
+  .one
+    margin-bottom: 30px
+    &__image
+      display: none
+    &__description
+      max-width: 100%
+      margin: 0 0 0 0
+
+  .two
+    position: static
+    margin-bottom: 30px
+    &__image
+      display: none
+    &__description
+      max-width: 100%
+
+  .three
+    position: static
+    &__image
+      display: none
+    &__description
+      max-width: 100%
+      text-align-last: left
