@@ -16,8 +16,12 @@
   <body>
     <header class="header">
       <div class="header__wrapper">
-        <div class="header__logo">
-          <a href="#" class="modal"
+        <div tabindex="0" class="header__logo">
+          <a
+            aria-label="Company logo"
+            tabindex="-1"
+            href="#"
+            class="header__link modal"
             ><img
               src="img/Header/Header__logo.webp"
               class="header__logo-image"
@@ -25,7 +29,7 @@
           /></a>
         </div>
         <!-- /.header__logo -->
-        <button class="header__login button modal">Sign In</button>
+        <button tabindex="0" class="header__login button modal">Sign In</button>
       </div>
       <!-- /.header__wrapper -->
     </header>
@@ -39,7 +43,9 @@
           Superpeer gives you the tools you need to have paid 1:1 video calls
           and livestreams with your audience and paid subscribers.
         </p>
-        <button class="main__button button modal">REQUEST INVITE</button>
+        <button tabindex="0" class="main__button button modal">
+          REQUEST INVITE
+        </button>
       </div>
       <!-- /.main__description -->
       <div class="main__images">
@@ -358,22 +364,32 @@
         Build and grow your community face-to-face and make money while you do
         it.
       </p>
-      <button class="ready__button button modal">REQUEST INVITE</button>
+      <button tabindex="0" class="ready__button button modal">
+        REQUEST INVITE
+      </button>
     </section>
     <!-- /.ready -->
     <footer class="footer container">
       <div class="footer__links">
-        <a href="#" class="footer__link modal">Blog</a>
-        <a href="#" class="footer__link modal">FAQ</a>
-        <a href="#" class="footer__link modal">Privacy</a>
-        <a href="#" class="footer__link modal">Terms</a>
+        <a tabindex="0" href="#" class="footer__link modal">Blog</a>
+        <a tabindex="0" href="#" class="footer__link modal">FAQ</a>
+        <a tabindex="0" href="#" class="footer__link modal">Privacy</a>
+        <a tabindex="0" href="#" class="footer__link modal">Terms</a>
       </div>
       <!-- /.footer__links -->
       <div class="footer__social">
-        <a href="#" class="footer__social-tw"
+        <a
+          tabindex="0"
+          aria-label="Link Twitter"
+          href="#"
+          class="footer__social-tw modal"
           ><img src="img/Footer/Twitter.svg" alt="Twitter"
         /></a>
-        <a href="#" class="footer__social-inst"
+        <a
+          tabindex="0"
+          aria-label="Link Instagramm"
+          href="#"
+          class="footer__social-inst modal"
           ><img src="img/Footer/Instagramm.svg" alt="Instagramm"
         /></a>
       </div>

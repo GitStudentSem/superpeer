@@ -11,10 +11,17 @@
     color: $Two
     text-decoration: none
     margin: 0 16px
+    &:hover
+      text-decoration: underline
+    &:focus
+      outline: 2px solid orange
   &__social
     width: 100px
     display: flex
     justify-content: space-between
+    &-tw, &-inst
+      &:focus
+        outline: 2px solid orange
   &__text
     line-height: 24px
     text-align: right
