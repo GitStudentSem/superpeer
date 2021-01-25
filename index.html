@@ -22,11 +22,18 @@
             tabindex="-1"
             href="#"
             class="header__link modal"
-            ><img
-              src="img/Header/Header__logo.webp"
-              class="header__logo-image"
-              alt="Header logo"
-          /></a>
+            ><picture>
+              <source
+                class="header__logo-image"
+                srcset="img/Header/Header__logo.webp"
+              />
+              <img
+                class="header__logo-image"
+                src="img/Header/Header__logo.png"
+                alt="Header logo"
+              />
+            </picture>
+          </a>
         </div>
         <!-- /.header__logo -->
         <button tabindex="0" class="header__login button modal">Sign In</button>
@@ -50,11 +57,11 @@
       <!-- /.main__description -->
       <div class="main__images">
         <div class="main__phone">
-          <img
-            src="img/Main/main__phone.webp"
-            alt="phone"
-            class="main__phone-image"
-          />
+          <picture>
+            <source srcset="img/Main/main__phone.webp" />
+            <img src="img/livestream/phone-2.png" alt="phone-2" />
+          </picture>
+          <img src="" alt="phone" class="main__phone-image" />
         </div>
         <!-- /.main__phone -->
         <div class="main__computer">
